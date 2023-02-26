@@ -1,0 +1,111 @@
+body {
+    align-items: left;
+}
+
+marquee {
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-family: times new roman;
+}
+
+#first {
+    width: 100%;
+    height: 100%;
+}
+
+#contact {
+    background: #007FFF;
+}
+
+#contact iframe {
+    width: 100%
+}
+
+.contact_1 h5 {
+    display: inline;
+    color: #F8DD1C;
+    font-family: fantasy;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    margin: 40px auto;
+    display: flex;
+}
+
+.menu ul li {
+    width: 100%;
+    border-right: 1px solid white;
+}
+
+.menu ul li a {
+    position: relative;
+    width: 50%;
+    display: block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background: tomato;
+    height: 5px;
+    width: 0%;
+    transition: 2s all;
+}
+
+.menu ul li a:hover::before {
+    width: 100%
+}
+
+ul {
+    position: sticky;
+    top: 0;
+}
+.row::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+#achievementsID{
+    padding-bottom: 10px;
+}
+.movie_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.movie_head i{
+    float: right;
+}
+.travel_mainDiv{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7
+}
+.travel_mainDiv img{
+    width: 100%;
+    height: 300px;
+}
+.travel_mainDiv hr{
+    width: 100%;
+}
+.travel_mainDiv h5, .travel_mainDiv p{
+    margin-left: 20px;
+}
